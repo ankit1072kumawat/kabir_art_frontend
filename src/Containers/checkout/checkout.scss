@@ -1,0 +1,202 @@
+.checkout-page {
+    //checkout-section
+    .checkout-section {
+      box-shadow: 0 0 50px #e3e3e3;
+      padding: 25px;
+      margin: 0px 0px 60px;
+      .common-heading {
+      }
+      .checkout-card {
+        //billing-information
+        .billing-information {
+          .information-box {
+            .billing-heading {
+              margin-bottom: 20px;
+              h2 {
+                font-size: 20px;
+                margin: 0px;
+              }
+            }
+            .billing-form {
+              margin-bottom: 20px;
+            }
+          }
+        }
+  
+        //order-card
+        .order-card {
+          border: 1px solid #dbdbdb;
+          padding: 25px;
+          .order-heading {
+            h2 {
+              font-size: 20px;
+              margin: 0px;
+            }
+          }
+          //order-price-table
+          .order-price-table {
+            .table {
+              tr {
+                th {
+                  font-size: 14px;
+                  &:nth-child(1) {
+                    padding-left: 0;
+                  }
+                  &:nth-last-child(1) {
+                    padding-right: 0;
+                    width: 100px;
+                  }
+                }
+                td {
+                  font-size: 14px;
+                  &:nth-child(1) {
+                    padding-left: 0;
+                  }
+                  &:nth-last-child(1) {
+                    padding-right: 0;
+                    width: 100px;
+                  }
+                }
+              }
+              thead {
+                tr {
+                  th {
+                    border-top: 0px;
+                    border-bottom: 1px solid #dee2e6;
+                    font-size: 14px;
+                    &:nth-last-child(1) {
+                      text-align: right;
+                    }
+                  }
+                }
+              }
+              tbody {
+                tr {
+                  td {
+                    //border-color: #f7f7f7;
+                    &:nth-last-child(1) {
+                      text-align: right;
+                    }
+                  }
+                  &:nth-child(1) {
+                    td {
+                      border-top: 0px;
+                    }
+                  }
+                }
+              }
+              tfoot {
+                tr {
+                  th {
+                    &:nth-last-child(1) {
+                      text-align: right;
+                    }
+                  }
+                }
+              }
+            }
+          }
+  
+          //order-info-box
+          .order-info-box {
+            border: 1px solid #e7e7e7;
+            background-color: #fcfbfc;
+            padding: 20px;
+            display: flex;
+            margin-bottom: 20px;
+            i {
+              margin-right: 15px;
+              color: #1e85be;
+              font-size: 24px;
+            }
+            p {
+              font-size: 14px;
+              margin: 0px;
+              color: #1e85be;
+            }
+          }
+          //order-pera
+          .order-pera {
+            p {
+              font-size: 14px;
+              color: #000;
+              a {
+                color: #7103f3;
+                &:hover {
+                  color: #000;
+                }
+              }
+            }
+          }
+          .place-order-btn {
+            .theme-btn {
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .checkout-page {
+      //checkout-section
+      .checkout-section {
+        padding: 25px 10px;
+        .checkout-card {
+          //order-card
+          .order-card {
+            padding: 25px 10px;
+            //order-price-table
+            .order-price-table {
+              .table {
+                tr {
+                  th {
+                    font-size: 12px;
+                    &:nth-last-child(1) {
+                      width: 80px;
+                    }
+                  }
+                  td {
+                    font-size: 12px;
+                  }
+                }
+                thead {
+                  tr {
+                    th {
+                      font-size: 12px;
+                    }
+                  }
+                }
+              }
+            }
+  
+            //order-info-box
+            .order-info-box {
+              padding: 20px 10px;
+              p {
+                font-size: 12px;
+              }
+            }
+            //order-pera
+            .order-pera {
+              p {
+                font-size: 14px;
+                color: #000;
+                a {
+                  color: #7103f3;
+                  &:hover {
+                    color: #000;
+                  }
+                }
+              }
+            }
+            .place-order-btn {
+              .theme-btn {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,56 @@
+.contactUs-page {
+  // padding: 50px 0px;
+  .contactUs-inner {
+    padding: 50px 0px;
+    //address-detail
+    .address-detail {
+      .address-detail-item {
+        display: flex;
+        margin-bottom: 25px;
+        .address-icon {
+          span {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            border: 2px solid #fe7d00;
+            border-radius: 100%;
+            overflow: hidden;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+              color: #003051;
+              font-size: 20px;
+            }
+          }
+        }
+        .address-content {
+          span {
+            color: #003051;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            margin: 0px 0px 5px;
+            font-family: "Segoe UI";
+            display: block;
+          }
+          p {
+            color: #003051;
+            margin: 0px;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 600;
+            font-family: "Segoe UI";
+          }
+        }
+      }
+    }
+    //address-mep
+    .address-mep {
+      iframe {
+        border: 0px;
+      }
+    }
+  }
+}
